@@ -7,8 +7,8 @@ import morgan from "morgan";
 import winston from 'winston'; 
 import mongoose from 'mongoose';
 import DBconnect from './config/DbConnection.js';
-import UniversityRoute from '../Backend/routes/UniversityRoutes.js'
-import StudentRoute from '../Backend/routes/StudentRoutes.js'
+import UniversityRoute from './routes/UniversityRoutes.js'
+import StudentRoute from './routes/StudentRoutes.js'
 import { notFound , errorHandler } from './middlewares/errorMiddleware.js';
 
 const app = express();
