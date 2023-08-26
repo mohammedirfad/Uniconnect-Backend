@@ -1,0 +1,53 @@
+{"level":"error","timestamp":"2023-08-24T12:49:01.886Z"}
+{"level":"error","timestamp":"2023-08-24T12:49:36.281Z"}
+{"_original":"{email:\" \",name:\"\",password:\" \"}","details":[{"context":{"label":"value","type":"object","value":"{email:\" \",name:\"\",password:\" \"}"},"message":"\"value\" must be of type object","path":[],"type":"object.base"}],"level":"error","statusCode":400,"timestamp":"2023-08-24T12:50:01.020Z"}
+{"_original":"{email:\" \",name:\"\",password:\" \"}","details":[{"context":{"label":"value","type":"object","value":"{email:\" \",name:\"\",password:\" \"}"},"message":"\"value\" must be of type object","path":[],"type":"object.base"}],"level":"error","statusCode":400,"timestamp":"2023-08-24T12:50:56.943Z"}
+{"level":"error","message":"Token Not Found","statusCode":400,"timestamp":"2023-08-24T13:03:00.648Z"}
+{"_original":"{email:\" \",name:\"\",password:\" \"}","details":[{"context":{"label":"value","type":"object","value":"{email:\" \",name:\"\",password:\" \"}"},"message":"\"value\" must be of type object","path":[],"type":"object.base"}],"level":"error","statusCode":400,"timestamp":"2023-08-24T13:22:15.694Z"}
+{"_original":{"name":"kiran"},"details":[{"context":{"key":"email","label":"email"},"message":"\"email\" is required","path":["email"],"type":"any.required"}],"level":"error","statusCode":400,"timestamp":"2023-08-24T13:25:56.633Z"}
+{"level":"error","timestamp":"2023-08-25T05:53:46.365Z"}
+{"level":"error","timestamp":"2023-08-25T05:55:06.389Z"}
+{"code":11000,"index":0,"keyPattern":{"Email":1},"keyValue":{"Email":"muhammedirfad43@gmail.com"},"level":"error","timestamp":"2023-08-25T05:59:24.393Z"}
+{"code":11000,"index":0,"keyPattern":{"Email":1},"keyValue":{"Email":"muhammedirfad43@gmail.com"},"level":"error","timestamp":"2023-08-25T05:59:28.705Z"}
+{"code":11000,"index":0,"keyPattern":{"Email":1},"keyValue":{"Email":"muhammedirfad43@gmail.com"},"level":"error","timestamp":"2023-08-25T05:59:29.913Z"}
+{"code":11000,"index":0,"keyPattern":{"Email":1},"keyValue":{"Email":"muhammedirfad43@gmail.com"},"level":"error","timestamp":"2023-08-25T06:00:11.553Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:01:00.546Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:01:33.254Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:02:19.403Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:04:09.277Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:05:35.690Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:10:43.322Z"}
+{"level":"error","timestamp":"2023-08-25T06:17:07.141Z"}
+{"level":"error","timestamp":"2023-08-25T06:18:28.211Z"}
+{"level":"error","timestamp":"2023-08-25T06:19:46.883Z"}
+{"level":"error","message":"Incorrect password","statusCode":400,"timestamp":"2023-08-25T06:22:36.083Z"}
+{"level":"error","message":"No user with this email found","statusCode":405,"timestamp":"2023-08-25T06:22:58.429Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:23:26.404Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:24:28.926Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:25:23.114Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:25:30.895Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:25:39.689Z"}
+{"level":"error","message":"Email already exists","statusCode":400,"timestamp":"2023-08-25T06:25:40.496Z"}
+{"level":"error","message":"Must supply api_key","timestamp":"2023-08-25T06:51:16.904Z"}
+{"level":"error","message":"Must supply api_key","timestamp":"2023-08-25T06:51:57.505Z"}
+{"level":"error","message":"Must supply api_key","timestamp":"2023-08-25T06:53:30.132Z"}
+{"level":"error","message":"Must supply api_key","timestamp":"2023-08-25T06:54:15.613Z"}
+{"level":"error","message":"Must supply api_key","timestamp":"2023-08-25T06:54:34.296Z"}
+{"_message":"Book validation failed","errors":{"UserId":{"kind":"required","message":"Path `UserId` is required.","name":"ValidatorError","path":"UserId","properties":{"message":"Path `UserId` is required.","path":"UserId","type":"required"}}},"level":"error","message":"Book validation failed: UserId: Path `UserId` is required.","name":"ValidationError","timestamp":"2023-08-25T06:56:17.301Z"}
+{"_message":"Book validation failed","errors":{"UserId":{"kind":"required","message":"Path `UserId` is required.","name":"ValidatorError","path":"UserId","properties":{"message":"Path `UserId` is required.","path":"UserId","type":"required"}}},"level":"error","message":"Book validation failed: UserId: Path `UserId` is required.","name":"ValidationError","timestamp":"2023-08-25T06:57:58.991Z"}
+{"_message":"Book validation failed","errors":{"UserId":{"kind":"required","message":"Path `UserId` is required.","name":"ValidatorError","path":"UserId","properties":{"message":"Path `UserId` is required.","path":"UserId","type":"required"}}},"level":"error","message":"Book validation failed: UserId: Path `UserId` is required.","name":"ValidationError","timestamp":"2023-08-25T06:58:46.277Z"}
+{"level":"error","timestamp":"2023-08-25T10:10:18.494Z"}
+{"level":"error","timestamp":"2023-08-25T10:10:18.813Z"}
+{"level":"error","timestamp":"2023-08-25T10:10:19.139Z"}
+{"level":"error","timestamp":"2023-08-25T10:10:53.217Z"}
+{"level":"error","timestamp":"2023-08-25T10:10:53.511Z"}
+{"level":"error","timestamp":"2023-08-25T10:10:53.794Z"}
+{"level":"error","path":"Book","timestamp":"2023-08-26T00:48:50.724Z"}
+{"level":"error","path":"Book","timestamp":"2023-08-26T00:48:51.059Z"}
+{"level":"error","path":"Book","timestamp":"2023-08-26T00:49:31.972Z"}
+{"level":"error","path":"Book","timestamp":"2023-08-26T00:49:39.073Z"}
+{"level":"error","path":"Book","timestamp":"2023-08-26T00:49:41.971Z"}
+{"level":"error","path":"Book","timestamp":"2023-08-26T00:50:31.196Z"}
+{"level":"error","path":"Book","timestamp":"2023-08-26T00:50:31.529Z"}
+{"level":"error","path":"BookId","timestamp":"2023-08-26T00:56:46.840Z"}
+{"level":"error","path":"BookId","timestamp":"2023-08-26T00:56:47.178Z"}

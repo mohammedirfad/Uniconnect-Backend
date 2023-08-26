@@ -1,11 +1,9 @@
 import Joi from 'joi';
 
 const registrationSchema = Joi.object({
-  universityName: Joi.string().required(),
+  name: Joi.string().required(),
   email: Joi.string().email().required(),
   password: Joi.string().min(6).required(),
-  universityType: Joi.string().valid('public', 'private').required(),
-  location: Joi.string().required(),
 });
 
 export const validateRegistration = (data) => {

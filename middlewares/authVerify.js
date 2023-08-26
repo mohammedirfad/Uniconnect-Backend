@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 
 export const generateToken = (userId) => {
  
-  const token = jwt.sign({ id: userId, role: userId.role }, process.env.JWT_SECRET_KEY, { expiresIn: "1hr" });
+  const token = jwt.sign({ id: userId}, process.env.JWT_SECRET_KEY, { expiresIn: "1hr" });
   return token;
 };
 
@@ -11,13 +11,13 @@ export const generateToken = (userId) => {
 
 export const verifyToken = async (req, res, next) => {
     try {
-  
+      let error={}
       let token = req.header("Authorization");
   
       if (!token) {
-        
-        return res.status(403).send("Access Denied");
-  
+            error.message="Token Not Found"
+            error.statusCode=400
+           return next(error)
       }
   
       if (token.startsWith("Bearer")) {
@@ -25,7 +25,9 @@ export const verifyToken = async (req, res, next) => {
         console.log(token,"jwt................");
        
       } else {
-        return res.status(403).send("Access Denied");
+           error.message="Invalid Token"
+            error.statusCode=403
+           return next(error)
       }
   
       const verified = jwt.verify(token, process.env.JWT_SECRET_KEY);
